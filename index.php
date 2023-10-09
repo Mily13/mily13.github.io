@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Milan portfolio</title>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-base.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-ui.min.js"></script>
+    <script src="https://cdn.anychart.com/releases/v8/js/anychart-exports.min.js"></script>
+    <link href="https://cdn.anychart.com/releases/v8/css/anychart-ui.min.css" type="text/css" rel="stylesheet">
+    <link href="https://cdn.anychart.com/releases/v8/fonts/css/anychart-font.min.css" type="text/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<?php include_once 'navbar.php'; ?>
+
+<section id="header" class="pt-5">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md-5 text-center">
+                <img id="profile" src="./public/Milan.png" class="img-fluid rounded" alt="profile">
+            </div>
+            <div class="col-12 col-md-7 mt-5 pt-3">
+                <a class="smtxt"><i>Hi! I'am</i><br></a>
+                <h1 style="display: inline">Horváth Milán </h1>
+                <a class="smtxt"><i>  and I'am a</i></a>
+                <h2>Junior Sorftware Developer</h2>
+                <div class="btn-group mt-5">
+                    <a href="#contact" class="btn btn-outline-light btn-lg">CONTACT ME</a>
+                    <a href="public/CV_Horvath_Milan_EN.pdf" download="CV_Horvath_Milan_EN.pdf" class="btn btn-outline-light btn-lg">DOWNLOAD CV</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="introduction">
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-12 col-md-10">
+                <a id="intr">"My name is Milán Horváth. I graduated from the University of Szeged
+                    with a degree in Computer Science. I gained most of my knowledge and
+                    experience through university projects, my thesis, and my internship.
+                    As a recent graduate, my goal is to find a job where I can continue to
+                    develop and use the skills I have acquired so far."</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="work">
+    <h1 id="worktitle" class="text-center pt-5">Some of my work</h1>
+    <div class="container py-5">
+        <div class="row">
+            <div class="col-6 col-md-4 mb-5">
+                <div class="card">
+                    <img src="public/List_alk.jpg" class="card-img-top" alt="img">
+                    <div class="card-body workCards">
+                        <h5 class="card-title">Parts Managing wesite</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="project1" class="btn btn-outline-light"><b>Go somewhere</b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-5">
+                <div class="card">
+                    <img src="public/Blog_Laravel_2.png" class="card-img-top" alt="img">
+                    <div class="card-body workCards">
+                        <h5 class="card-title">Blog Laravel website</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="project2" class="btn btn-outline-light"><b>Go somewhere</b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-5">
+                <div class="card">
+                    <img src="public/CallRegister.png" class="card-img-top" alt="img">
+                    <div class="card-body workCards">
+                        <h5 class="card-title">CallRegister mobile app</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="project3" class="btn btn-outline-light"><b>Go somewhere</b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-5">
+                <div class="card">
+                    <img src="public/Raft_3.png" class="card-img-top" alt="img">
+                    <div class="card-body workCards">
+                        <h5 class="card-title">Java 2D Raft game</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="project4" class="btn btn-outline-light"><b>Go somewhere</b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-5">
+                <div class="card">
+                    <img src="public/Quoridor_2.jpg" class="card-img-top" alt="img">
+                    <div class="card-body workCards">
+                        <h5 class="card-title">Qurridor AI Java</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="project5" class="btn btn-outline-light"><b>Go somewhere</b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-5">
+                <div class="card">
+                    <img src="public/Menetrendek_3.jpg" class="card-img-top" alt="img">
+                    <div class="card-body workCards">
+                        <h5 class="card-title">Menetrendek Mobile app</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="project6" class="btn btn-outline-light"><b>Go somewhere</b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-5">
+                <div class="card">
+                    <img src="public/Névtelen-1.jpg" class="card-img-top" alt="img">
+                    <div class="card-body workCards">
+                        <h5 class="card-title">JS játékok</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="project7" class="btn btn-outline-light"><b>Go somewhere</b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-5">
+                <div class="card">
+                    <img src="public/Névtelen-1.jpg" class="card-img-top" alt="img">
+                    <div class="card-body workCards">
+                        <h5 class="card-title">OOP PHP weboldal</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="project8" class="btn btn-outline-light"><b>Go somewhere</b></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 col-md-4 mb-5">
+                <div class="card">
+                    <img src="public/Névtelen-1.jpg" class="card-img-top" alt="img">
+                    <div class="card-body workCards">
+                        <h5 class="card-title">Procedurális Php weboldal</h5>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="project9" class="btn btn-outline-light"><b>Go somewhere</b></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="skills" class="py-5">
+    <div class="row">
+        <h1 class="mb-5" id="LanguagesTitle">Languages & Technologys I've experience with</h1>
+        <div class="col-12 col-md-6 mb-5">
+            <div id="container"></div>
+        </div>
+        <div class="col-12 col-md-6">
+            <div id="container2"></div>
+        </div>
+    </div>
+</section>
+
+<section id="skills2" class="py-5 px-5">
+    <div class="row text-center">
+        <h1 class="mb-5" id="skillTitle">My proefficencys</h1>
+        <div class="col-6 col-md-3 mb-5">
+            <img src="public/internet.png" style="width: 100px">
+            <br><a class="skillsText">Web Development</a>
+        </div>
+        <div class="col-6 col-md-3">
+            <img src="public/java.png" style="width: 100px">
+            <br><a class="skillsText">Java Android Development</a>
+        </div>
+        <div class="col-6 col-md-3">
+            <img src="public/server.png" style="width: 100px">
+            <br><a class="skillsText">SQL databases</a>
+        </div>
+        <div class="col-6 col-md-3">
+            <img src="public/cloud.png" style="width: 100px">
+            <br><a class="skillsText">AWS solution architecture</a>
+        </div>
+    </div>
+</section>
+
+<section id="contact" class="py-5">
+    <h1 id="contactHeader">Contact me</h1>
+    <h2 id="contactEmail">- h.milan0713@gmail.com -</h2>
+    <div class="row justify-content-center mt-3 pb-5">
+        <div class="col-12 col-md-8 px-5">
+            <div id="contactCard" class="card mb-4 mx-auto">
+                <div class="card-body">
+                    <form method="post" action="email.php">
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="addon1"><i class="bi bi-person-circle"></i></span>
+                            <input type="text" name="name" id="nameInput" class="form-control" placeholder="Your name" aria-describedby="addon1" required/>
+                        </div>
+
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="addon2"><i class="bi bi-building-fill"></i></span>
+                            <input type="text" name="company" id="compamyInput" class="form-control" placeholder="Your company ltd." aria-describedby="addon2" />
+                        </div>
+                        <div class="input-group mb-4">
+                            <span class="input-group-text" id="addon3"><i class="bi bi-envelope-at-fill"></i></span>
+                            <input type="email" name="email" id="emailInput" class="form-control" placeholder="example@gmail.com" aria-describedby="addon3" required/>
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label contactLabel" for="textarea">Message</label>
+                            <textarea class="form-control" name="message" id="textarea" placeholder="Your message example" aria-label="Your message example" rows="4" aria-describedby="addon4" required></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" id="sendBtn" class="btn btn-light"><b>Send the message</b></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="card-footer cardFooter">
+                    You can also simply write an email to: h.milan0713@gmail.com
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="text-center">
+        <div class="btn-group" role="group" aria-label="Basic example">
+            <a class="socialmedia me-5" href="https://www.linkedin.com/in/horv%C3%A1th-mil%C3%A1n-032113232/" target="_blank"><i class="bi bi-linkedin"></i> Linkedin</a>
+            <a class="socialmedia me-5" href="https://github.com/Mily13" target="_blank"><i class="bi bi-github"></i> GitHub</a>
+            <a class="socialmedia" href="https://www.facebook.com/Milan.Horvath.713" target="_blank"><i class="bi bi-facebook"></i>Facebook</a>
+        </div>
+    </div>
+
+</section>
+
+<script>
+
+
+
+
+
+
+        anychart.onDocumentReady(function () {
+        // create pie chart with passed data
+        var chart = anychart.pie([
+            ['PHP', 18],
+            ['HTML', 15],
+            ['CSS', 12],
+            ['BootStrap', 15],
+            ['CodeIgniter', 18],
+            ['Laravel', 12],
+            ['JavaScript', 10]
+        ]);
+
+        // creates palette
+        var palette = anychart.palettes.distinctColors();
+        palette.items([
+            { color: '#43bade' },
+            { color: '#357d8e' },
+            { color: '#10465c' },
+            { color: '#5170de' },
+            { color: '#193ca7' },
+            { color: '#1a0acd' },
+            { color: '#45299a' }
+        ]);
+
+        // set chart radius
+        chart
+            .radius('63%')
+            // create empty area in pie chart
+            .innerRadius('45%')
+            // set chart palette
+            .palette(palette);
+
+        // set outline settings
+        chart
+            .outline()
+            .width('2%')
+            .fill(function () {
+                return anychart.color.darken(this.sourceColor, 0.25);
+            });
+
+        // format tooltip
+        chart.tooltip().format('Percent Value: {%PercentValue}%');
+
+        // create standalone label and set label settings
+        var label = anychart.standalones.label();
+        label
+            .enabled(true)
+            .text('Web development\n technologys')
+            .width('100%')
+            .height('100%')
+            .adjustFontSize(true, true)
+            .minFontSize(10)
+            .maxFontSize(25)
+            .fontColor('#60727b')
+            .position('center')
+            .anchor('center')
+            .hAlign('center')
+            .vAlign('middle');
+
+        // set label to center content of chart
+        chart.center().content(label);
+
+        // set container id for the chart
+        chart.container('container');
+        // initiate chart drawing
+        chart.draw();
+
+
+        var chart2 = anychart.pie([
+            ['C', 18],
+            ['C++', 15],
+            ['Java', 12],
+            ['Python', 15],
+            ['AWS', 18],
+            ['SQL', 12],
+            ['Git', 10]
+        ]);
+
+        // creates palette
+        var palette2 = anychart.palettes.distinctColors();
+        palette2.items([
+            { color: '#43bade' },
+            { color: '#357d8e' },
+            { color: '#10465c' },
+            { color: '#5170de' },
+            { color: '#193ca7' },
+            { color: '#1a0acd' },
+            { color: '#45299a' }
+        ]);
+
+        // set chart radius
+        chart2
+            .radius('63%')
+            // create empty area in pie chart
+            .innerRadius('45%')
+            // set chart palette
+            .palette(palette2);
+
+        // set outline settings
+        chart2
+            .outline()
+            .width('2%')
+            .fill(function () {
+                return anychart.color.darken(this.sourceColor, 0.25);
+            });
+
+        // format tooltip
+        chart2.tooltip().format('Percent Value: {%PercentValue}%');
+
+        // create standalone label and set label settings
+        var label2 = anychart.standalones.label();
+        label2
+            .enabled(true)
+            .text('Other languages')
+            .width('100%')
+            .height('100%')
+            .adjustFontSize(true, true)
+            .minFontSize(10)
+            .maxFontSize(25)
+            .fontColor('#60727b')
+            .position('center')
+            .anchor('center')
+            .hAlign('center')
+            .vAlign('middle');
+
+        // set label to center content of chart
+        chart2.center().content(label2);
+
+        // set container id for the chart
+        chart2.container('container2');
+        // initiate chart drawing
+        chart2.draw();
+    });
+
+</script>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>

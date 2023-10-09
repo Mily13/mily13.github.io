@@ -1,0 +1,14 @@
+Options +FollowSymLinks
+RewriteEngine On
+
+# Az URL-ek átírása
+RewriteRule ^project1$ project1.php [NC,L]
+RewriteRule ^project2$ project2.php [NC,L]
+RewriteRule ^project3$ project3.php [NC,L]
+RewriteRule ^project4$ project4.php [NC,L]
+RewriteRule ^project5$ project5.php [NC,L]
+RewriteRule ^project6$ project6.php [NC,L]
+RewriteRule ^project7$ project7.php [NC,L]
+RewriteRule ^project8$ project8.php [NC,L]
+RewriteRule ^project9$ project9.php [NC,L]
+

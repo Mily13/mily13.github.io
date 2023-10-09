@@ -1,0 +1,161 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+#header{
+    background-image: url("public/Névtelen-2.jpg");
+}
+#contact{
+    background-image: url("public/Névtelen-2.jpg");
+}
+#introduction{
+    background-color: #716b86;
+}
+#work{
+    background-color: #393544;
+}
+#skills{
+    background-color: white;
+}
+#skills2{
+    background-color: #716b86;
+}
+.smtxt{
+    text-decoration: none;
+    text-shadow: black;
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: "Candara";
+}
+h1{
+    font-size: 60px;
+    text-shadow: black;
+    color: whitesmoke;
+    font-family: "Candara";
+}
+h2{
+    font-size: 40px;
+    text-shadow: black;
+    color: whitesmoke;
+    font-family: "Candara";
+}
+#profile{
+    width: 450px;
+}
+#navbrand{
+    font-size: 25px;
+    font-family: "Candara";
+    font-weight: bold;
+}
+#intr{
+    font-size: 30px;
+    color: white;
+    font-family: "Candara";
+}
+#intrIcon{
+    width: 100vh;
+}
+#container{
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+#container2{
+    width: 100%;
+    height: 400px;
+    margin: 0;
+    padding: 0;
+}
+#skillTitle{
+    color: white;
+    text-align: center;
+}
+#LanguagesTitle{
+    color: black;
+    text-align: center;
+}
+.skillsText{
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    font-family: "Candara";
+}
+#contactHeader{
+    font-size: 60px;
+    font-family: Candara;
+    text-align: center;
+    color: whitesmoke;
+}
+#contactCard{
+    background: #716b86;
+    border-color: white;
+}
+.contactLabel{
+    font-weight: bold;
+    color: whitesmoke;
+}
+.cardFooter{
+    color: white;
+    text-align: center;
+}
+#contactEmail{
+    color: white;
+    text-align: center;
+    font-family: Candara;
+    font-style: italic;
+    font-size: 25px;
+}
+#nameInput{
+    width: 75%;
+}
+#compamyInput{
+    width: 75%;
+}
+#emailInput{
+    width: 75%;
+}
+.socialmedia{
+    font-size: 25px;
+    text-decoration: none;
+
+    color: white;
+}
+#sendBtn{
+    width: 200px;
+}
+.projectCard{
+    background: #716b86;
+    border-color: white;
+    font-size: 20px;
+    color: white;
+}
+.projectBody{
+    background-image: url("public/Névtelen-2.jpg");
+}
+.projectHeader{
+    color: #393544;
+    font-size: 40px;
+    font-family: Candara;
+}
+.workCards{
+    background: #716b86;
+    border-color: white;
+    color: white;
+}
+.navText{
+    font-size: 20px;
+    font-family: Candara;
+    color: white;
+}
+.nav-link{
+    font-size: 20px;
+    font-family: Candara;
+    color: white;
+}
+.offcanvas-title{
+    font-size: 25px;
+    font-family: Candara;
+    color: white;
+}
